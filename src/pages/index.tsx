@@ -31,7 +31,7 @@ export default function Index() {
                             experiences
                         </p>
 
-                        <p>I&aposm currently working remotely from Dubai 🇦🇪</p>
+                        <p>I’m currently working remotely from Dubai 🇦🇪</p>
                     </div>
                 </section>
 
