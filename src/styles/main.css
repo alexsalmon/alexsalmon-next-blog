@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    @apply text-text bg-background;
+}
+
+@layer utilities {
+    .layout {
+        /*max-width: 50rem; !* 800px *!*/
+        /*max-width: 68.75rem; !* 1100px *!*/
+        max-width: 75rem; /* 1200px */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .link-underline {
+        @apply bg-gradient-to-r from-link-200 to-link-500
+        bg-no-repeat
+        [background-position:0_104%] [background-size:100%_0.12em]
+        motion-safe:transition-all motion-safe:duration-75
+        hover:[background-size:100%_100%] hover:text-darker
+        focus:[background-size:100%_100%];
+    }
+}

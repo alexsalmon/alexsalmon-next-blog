@@ -8,7 +8,7 @@
         "isolatedModules": true,
         "jsx": "preserve",
         "lib": ["dom", "dom.iterable", "esnext"],
-        "module": "esnext",
+        "module": "commonjs",
         "moduleResolution": "node",
         "noEmit": true,
         "noImplicitAny": true,
@@ -20,7 +20,7 @@
         "skipLibCheck": true,
         "sourceMap": true,
         "strict": false,
-        "target": "es5"
+        "target": "esnext"
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
