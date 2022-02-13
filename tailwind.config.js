@@ -17,6 +17,19 @@ module.exports = {
                 text: draculaColors.darker['50'],
                 muted: draculaColors.darker['400'],
             },
+            typography: () => ({
+                DEFAULT: {
+                    css: {
+                        color: draculaColors.darker['50'],
+                        a: {
+                            color: draculaColors.cyan['500'],
+                            '&:hover': {
+                                color: draculaColors.cyan['200'],
+                            },
+                        },
+                    },
+                },
+            }),
         },
     },
     // eslint-disable-next-line @typescript-eslint/no-var-requires

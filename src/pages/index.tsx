@@ -3,7 +3,7 @@ import { Body } from '../components/templates/Body';
 export default function Index() {
     return (
         <Body>
-            <div className="space-y-40 mb-72">
+            <main className="space-y-40 mb-72">
                 <section className="space-y-8" role="banner">
                     <div className="max-w-[250px]">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -121,7 +121,7 @@ export default function Index() {
                         </article>
                     </div>
                 </section>
-            </div>
+            </main>
         </Body>
     );
 }

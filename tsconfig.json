@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
         "allowJs": true,
-        "allowSyntheticDefaultImports": false,
-        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "forceConsistentCasingInFileNames": true,
         "incremental": true,
         "isolatedModules": true,
@@ -20,7 +19,8 @@
         "skipLibCheck": true,
         "sourceMap": true,
         "strict": false,
-        "target": "esnext"
+        "target": "esnext",
+        "esModuleInterop": true
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
