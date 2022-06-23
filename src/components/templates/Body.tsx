@@ -26,7 +26,7 @@ const Body = (props: BodyProps) => (
                     </div>
 
                     <p className="mt-4 text-sm text-center text-muted lg:text-right lg:mt-0">
-                        Alex Salmon &copy; 2021-{new Date().getFullYear()}
+                        &copy; 2021-{new Date().getFullYear()} Alex Salmon
                     </p>
                 </div>
             </div>
