@@ -32,7 +32,7 @@ export const NavigationBar = () => (
             </Link>
 
             <ul className="flex items-center space-x-8 text-sm font-medium text-muted">
-                <li className="group">
+                <li className="group cursor-pointer">
                     <Link href="/work">
                         <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
                             Work
@@ -40,7 +40,7 @@ export const NavigationBar = () => (
                     </Link>
                 </li>
 
-                <li className="group">
+                <li className="group cursor-pointer">
                     <Link href="/blog">
                         <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
                             Blog
@@ -48,7 +48,7 @@ export const NavigationBar = () => (
                     </Link>
                 </li>
 
-                <li className="group">
+                <li className="group cursor-pointer">
                     <a
                         className="inline-flex items-center bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent"
                         href="https://news.ycombinator.com/"
