@@ -3,8 +3,8 @@ import { GetStaticPaths, GetStaticProps } from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
 import { Body } from '../../../components/templates/Body';
-import { getParsedFileContentBySlug, renderMarkdown } from '../../../service/markdown';
-import { MarkdownRenderingResult } from '../../../service/types';
+import { getParsedFileContentBySlug, renderMarkdown } from '../../../services/markdown';
+import { MarkdownRenderingResult } from '../../../services/types';
 
 interface PostProps extends ParsedUrlQuery {
     slug: string;
