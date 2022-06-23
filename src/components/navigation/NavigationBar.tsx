@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export const NavigationBar = () => (
     <div className="layout">
-        <nav className="flex flex-col justify-between my-20 space-y-8">
+        <nav className="flex flex-col space-y-8 justify-between my-20 sm:flex-row sm:space-y-0">
             <Link href="/">
                 <a className="w-fit group">
                     <div className="relative flex items-center h-full">
                         <div className="transition-transform transform group-hover:translate-x-8">
-                            <p className="text-transparent bg-clip-text bg-gradient-to-br from-primary-50 to-primary-500 text-2xl font-semibold">
+                            <p className="text-transparent bg-clip-text bg-gradient-to-br from-primary-100 to-primary-500 text-2xl font-semibold">
                                 Alex Salmon
                             </p>
                         </div>
