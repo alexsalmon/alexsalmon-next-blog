@@ -1,7 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const plugin = require('tailwindcss/plugin');
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const draculaColors = require('./DraculaColors');
+import draculaColors from './DraculaColors';
+import plugin from 'tailwindcss/plugin';
 
 module.exports = (prefix, hard = false) =>
     // eslint-disable-next-line @typescript-eslint/no-empty-function
