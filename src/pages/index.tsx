@@ -16,7 +16,7 @@ export default function Index() {
 
                     <div className="max-w-xl space-y-4 text-xl">
                         <p>
-                            I’m Alex — a senior software engineer, working at{' '}
+                            I’m <strong>Alex</strong> — a senior software engineer, working at{' '}
                             <a
                                 className="inline group link-underline"
                                 href="https://applearn.com/"
