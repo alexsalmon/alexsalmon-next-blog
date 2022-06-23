@@ -35,8 +35,8 @@ export default function Index() {
                     </div>
                 </section>
 
-                <section className="space-y-8" role="list">
-                    <p className="text-sm uppercase">Public Work</p>
+                <section className="space-y-6" role="list">
+                    <p className="text-sm font-medium uppercase">Public Work</p>
 
                     <div className="inline-grid gap-4 grid-cols-2 w-full">
                         <a
@@ -87,13 +87,13 @@ export default function Index() {
                     </div>
                 </section>
 
-                <section className="space-y-8" role="list">
-                    <p className="text-sm uppercase">Blog</p>
+                <section className="space-y-6" role="list">
+                    <p className="text-sm font-medium uppercase">Blog</p>
 
                     <div className="inline-grid gap-4 grid-cols-2 w-full">
-                        <article className="p-0.5 shadow-2xl rounded-2xl bg-gradient-to-br from-darker-700 to-darker-900">
+                        <article className="p-1 shadow-2xl rounded-2xl bg-gradient-to-br from-link-700 to-link-900">
                             <a
-                                className="flex flex-col justify-end h-full p-6 bg-gray-900 sm:p-8 rounded-xl hover:bg-opacity-90"
+                                className="flex flex-col justify-end h-full p-6 bg-gray-800 sm:p-8 rounded-xl hover:bg-opacity-90"
                                 href="">
                                 <div className="mt-16">
                                     <p className="text-xs font-medium text-gray-500">26/05/2021</p>
@@ -101,17 +101,17 @@ export default function Index() {
                                         Custom Helper to Improve the Rails phone_to Helper
                                     </h5>
                                     <div className="flex items-center justify-between mt-6">
-                                        <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+                                        <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-link-400 to-link-600">
                                             Rails
                                         </p>
                                         <ul className="flex space-x-1">
-                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
+                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-700">
                                                 Snippet
                                             </li>
-                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
+                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-700">
                                                 Info
                                             </li>
-                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
+                                            <li className="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-700">
                                                 Tip
                                             </li>
                                         </ul>
