@@ -14,24 +14,29 @@ export default function Index() {
                         />
                     </div>
 
-                    <div className="max-w-xl space-y-4 text-xl">
+                    <div className="max-w-2xl space-y-4 text-xl">
                         <p>
-                            I’m <strong>Alex</strong> — a senior software engineer, working at{' '}
+                            I’m <strong>Alex</strong> — a Senior Software Engineer.
+                        </p>
+
+                        <p>
+                            I help cross-functional engineering teams solve real-world problems and deliver impactful
+                            web applications.
+                        </p>
+
+                        <p>
+                            Currently building: a world-class Digital Adoption Platform at{' '}
                             <a
                                 className="inline group link-underline"
-                                href="https://applearn.com/"
+                                href="https://www.g2.com/products/applearn/reviews"
                                 target="_blank"
                                 rel="noreferrer">
                                 AppLearn
                             </a>
+                            .
                         </p>
 
-                        <p>
-                            I help cross-functional engineering teams solve real-world problems and deliver great web
-                            experiences
-                        </p>
-
-                        <p>I’m currently working remotely from Dubai 🇦🇪</p>
+                        <p>Currently working: remotely from Dubai. 🇦🇪</p>
                     </div>
                 </section>
 
