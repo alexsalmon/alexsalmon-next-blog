@@ -25,4 +25,8 @@ body {
         hover:[background-size:100%_94%] hover:text-darker
         focus:[background-size:100%_94%];
     }
+
+    .animate-pause {
+        animation-play-state: paused;
+    }
 }
