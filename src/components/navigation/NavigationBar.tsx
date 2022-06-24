@@ -7,12 +7,12 @@ export const NavigationBar = () => (
                 <a className="w-fit group">
                     <div className="relative flex items-center h-full">
                         <div className="transition-transform transform group-hover:translate-x-8">
-                            <p className="text-transparent bg-clip-text bg-gradient-to-br from-primary-100 to-primary-500 text-2xl font-semibold">
+                            <p className="text-transparent bg-clip-text bg-gradient-to-br from-primary-100 to-primary-400 text-2xl font-semibold">
                                 Alex Salmon
                             </p>
                         </div>
 
-                        <div className="absolute pl-0.5 pb-[1px] text-primary-100 transition-opacity opacity-0 group-hover:opacity-100">
+                        <div className="absolute pl-0.5 text-primary-100 transition-opacity opacity-0 group-hover:opacity-100">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6"

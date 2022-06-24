@@ -1,7 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const draculaColors = require('./tailwind/DraculaColors');
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+/* eslint-disable @typescript-eslint/no-var-requires */
 const colors = require('tailwindcss/colors');
+const draculaColors = require('./tailwind/DraculaColors');
+const themeColors = require('./tailwind/ThemeColors');
 
 module.exports = {
     content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
@@ -9,7 +9,8 @@ module.exports = {
         extend: {
             colors: {
                 ...draculaColors,
-                primary: draculaColors.orange,
+                ...themeColors,
+                primary: themeColors.salmon,
                 secondary: draculaColors.yellow,
                 link: draculaColors.cyan,
                 // background: draculaColors.darker['900'],
