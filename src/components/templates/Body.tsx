@@ -24,8 +24,8 @@ const Body = (props: BodyProps) => (
             <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between ml-0.5">
                     <button
-                        className="flex justify-center animate-bounce text-muted sm:justify-start
-                                   hover:text-text hover:cursor-pointer hover:animate-pause"
+                        className="flex justify-center animate-bounce-up text-muted sm:justify-start
+                                   hover:text-link hover:cursor-pointer hover:animate-pause"
                         onClick={scrollToTop}>
                         <svg width="32px" height="32px" viewBox="-32 0 512 512" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -41,7 +41,7 @@ const Body = (props: BodyProps) => (
                 </div>
             </div>
 
-            <div className="py-1 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500" />
+            <div className="py-1 bg-gradient-to-r from-primary-300 via-primary-600 to-primary-500" />
         </footer>
     </>
 );
