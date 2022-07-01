@@ -13,10 +13,9 @@ module.exports = {
                 primary: themeColors.salmon,
                 secondary: draculaColors.yellow,
                 link: draculaColors.cyan,
-                // background: draculaColors.darker['900'],
-                background: colors.gray['900'],
-                text: draculaColors.darker['50'],
-                muted: draculaColors.darker['400'],
+                background: colors.gray[900],
+                text: colors.gray[50],
+                muted: colors.gray[400],
             },
             keyframes: {
                 bounceUp: {
@@ -36,11 +35,12 @@ module.exports = {
             typography: () => ({
                 DEFAULT: {
                     css: {
-                        color: draculaColors.darker['50'],
+                        '--tw-prose-headings': colors.gray[50],
+                        color: colors.gray[50],
                         a: {
-                            color: draculaColors.cyan['500'],
+                            color: draculaColors.cyan[500],
                             '&:hover': {
-                                color: draculaColors.cyan['200'],
+                                color: draculaColors.cyan[200],
                             },
                         },
                     },

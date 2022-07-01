@@ -36,6 +36,14 @@ export const NavigationBar = () => (
 
             <ul className="flex items-center space-x-8 text-sm font-medium text-muted">
                 <li className="group cursor-pointer">
+                    <Link href="/about">
+                        <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
+                            /about
+                        </a>
+                    </Link>
+                </li>
+
+                <li className="group cursor-pointer">
                     <Link href="/work">
                         <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
                             /work
