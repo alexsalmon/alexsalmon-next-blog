@@ -3,18 +3,20 @@ import { Body } from '../components/templates/Body';
 export default function Index() {
     return (
         <Body>
-            <main className="space-y-40 mb-72">
-                <section className="space-y-8" role="banner">
-                    <div className="max-w-[250px]">
+            <main className="space-y-40 mb-60">
+                <section
+                    className="flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:mt-40 lg:mb-60 lg:space-x-16"
+                    role="banner">
+                    <div className="flex flex-col justify-center w-[250px] rounded-full shadow-xl">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                            className="rounded-lg"
+                            className="aspect-square rounded-full bg-gray-900"
                             src="https://pbs.twimg.com/media/D9769dRW4AMs1Bh?format=jpg&name=large"
                             alt="headshot"
                         />
                     </div>
 
-                    <div className="max-w-2xl space-y-4 text-xl">
+                    <div className="flex flex-col justify-center max-w-2xl space-y-4 text-xl">
                         <p>
                             I’m <strong>Alex</strong> — a Senior Software Engineer.
                         </p>
