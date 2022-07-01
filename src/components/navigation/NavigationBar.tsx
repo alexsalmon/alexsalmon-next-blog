@@ -7,12 +7,15 @@ export const NavigationBar = () => (
                 <a className="w-fit group">
                     <div className="relative flex items-center h-full">
                         <div className="transition-transform transform group-hover:translate-x-8">
-                            <p className="text-transparent bg-clip-text bg-gradient-to-br from-primary-100 to-primary-400 text-2xl font-semibold">
+                            <p
+                                className="text-transparent tracking-tight bg-clip-text text-2xl font-semibold
+                                           bg-gradient-to-br from-gray-50 to-gray-300
+                                           group-hover:from-primary-200 group-hover:to-primary-400">
                                 Alex Salmon
                             </p>
                         </div>
 
-                        <div className="absolute pl-0.5 text-primary-100 transition-opacity opacity-0 group-hover:opacity-100">
+                        <div className="absolute pl-0.5 text-primary-200 transition-opacity opacity-0 group-hover:opacity-100">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-6 w-6"
@@ -35,7 +38,7 @@ export const NavigationBar = () => (
                 <li className="group cursor-pointer">
                     <Link href="/work">
                         <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
-                            Work
+                            /work
                         </a>
                     </Link>
                 </li>
@@ -43,7 +46,7 @@ export const NavigationBar = () => (
                 <li className="group cursor-pointer">
                     <Link href="/blog">
                         <a className="bg-clip-text bg-gradient-to-r from-link-200 to-link-400 group-hover:text-transparent">
-                            Blog
+                            /blog
                         </a>
                     </Link>
                 </li>
@@ -54,7 +57,7 @@ export const NavigationBar = () => (
                         href="https://news.ycombinator.com/"
                         target="_blank"
                         rel="noreferrer">
-                        External
+                        external
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"

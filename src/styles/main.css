@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply bg-gradient-to-br from-gray-800 to-gray-900 bg-black;
+}
+
 html,
 body {
-    @apply text-text bg-background;
+    @apply text-text;
 }
 
 @layer utilities {
