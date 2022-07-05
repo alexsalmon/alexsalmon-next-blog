@@ -26,7 +26,7 @@ body {
         bg-no-repeat
         [background-position:0_106%] [background-size:100%_0.12em]
         motion-safe:transition-all motion-safe:duration-75
-        hover:[background-size:100%_94%] hover:text-darker
+        hover:[background-size:100%_94%] hover:text-gray-900
         focus:[background-size:100%_94%];
     }
 

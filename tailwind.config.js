@@ -15,7 +15,7 @@ module.exports = {
                 link: draculaColors.cyan,
                 background: colors.gray[900],
                 text: colors.gray[50],
-                muted: colors.gray[400],
+                muted: colors.gray[500],
             },
             keyframes: {
                 bounceUp: {
