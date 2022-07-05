@@ -9,9 +9,9 @@ export const NavigationBar = () => (
                         <div className="transition-transform transform group-hover:translate-x-8">
                             <p
                                 className="text-transparent tracking-tight bg-clip-text text-2xl font-semibold
-                                           bg-gradient-to-br from-gray-50 to-gray-300
+                                           bg-gradient-to-br from-gray-50 to-gray-200
                                            group-hover:from-primary-200 group-hover:to-primary-400">
-                                Alex Salmon
+                                alexsalmon
                             </p>
                         </div>
 
